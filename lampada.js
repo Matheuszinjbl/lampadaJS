@@ -8,18 +8,18 @@ function isLampBroken () {
 
 function lampOn () {
     if ( !isLampBroken () ) {
-        lamp.src = '/ligada.jpg';
+        lamp.src = './ligada.jpg';
     }
 }
 
 function lampOff () {
     if ( !isLampBroken () ) {
-        lamp.src = '/desligada.jpg';
+        lamp.src = './desligada.jpg';
     }
 }
 
 function lampBroken () {
-    lamp.src = './img/quebrada.jpg';
+    lamp.src = './quebrada.jpg';
 }
 
 turnOn.addEventListener ( 'click', lampOn );
